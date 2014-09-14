@@ -15,26 +15,28 @@ It represents data collected from the accelerometers from the Samsung Galaxy S s
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The run_analysis.R does the following: 
-1) Read data 
-   a) Download and unzip the source zip file.
-   b) Prepare names of activities and column headers of measurements for use later.
-   c) Process the test set
-      1) Read the Subjects in the test set
-      2) Read the Activities of the Subjects in the test set
-      3) Read the Measurements of each Subject/Activities in the test set
-      4) Label the 3 test data sets above with descriptive variabe/column names.   
-   d) Process the training set similarly
-      1) Read the Subjects in the training set
-      2) Read the Activities of the Subjects in the training set
-      3) Read the Measurements of each Subject/Activities in the training set
-      4) Label the 3 training data sets above with descriptive variabe/column names.
-2) Merge the training and the test sets to create one data set.
-3) Use descriptive activity names to name the activities in the data set
-4) Extract only measurements on the mean and standard deviation for each measurement by
-   extracting measurements that contain "mean()" or "std()" in their descriptions.
-5) Create a second, independent tidy data set with the average of each variable for each
-   activity and each subject.
-6) Output the tidy data set as "tidy data.txt"
+The run_analysis.R does the following:  
+1) Read data   
+   a) Download and unzip the source zip file.  
+   b) Prepare names of activities and column headers of measurements for use later.  
+   c) Process the test set  
+      1) Read the Subjects in the test set  
+      2) Read the Activities of the Subjects in the test set  
+      3) Read the Measurements of each Subject/Activities in the test set  
+      4) Label the 3 test data sets above with descriptive variabe/column names.  
+   d) Process the training set similarly  
+      1) Read the Subjects in the training set  
+      2) Read the Activities of the Subjects in the training set  
+      3) Read the Measurements of each Subject/Activities in the training set  
+      4) Label the 3 training data sets above with descriptive variabe/column names.  
+2) Merge the training and the test sets to create one data set.  
+3) Use descriptive activity names to name the activities in the data set  
+4) Extract only measurements on the mean and standard deviation for each measurement by  
+   extracting measurements that contain "mean()" or "std()" in their descriptions.  
+5) Create a second, independent tidy data set with the average of each variable for each  
+   activity and each subject.  
+6) Output the tidy data set as "tidy data.txt"  
+
+
 
 
