@@ -38,4 +38,3 @@ The run_analysis.R does the following:
 6) Output the tidy data set as "tidy data.txt"
 
 
-
