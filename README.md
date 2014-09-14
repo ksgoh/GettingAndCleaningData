@@ -16,7 +16,7 @@ It represents data collected from the accelerometers from the Samsung Galaxy S s
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The run_analysis.R does the following: 
-1) Read data
+1) Read data 
    a) Download and unzip the source zip file.
    b) Prepare names of activities and column headers of measurements for use later.
    c) Process the test set
