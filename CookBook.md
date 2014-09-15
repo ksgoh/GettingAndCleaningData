@@ -13,14 +13,15 @@
             STANDING
             LAYING
 
-Each of the next 66 variables is the average of its respective variable obtained by processing signals from accelerometers and gyroscopes from the smartphone of the Subject performing Activity. 
+Each of the next 66 variables is the average of its respective variable obtained by processing signals from accelerometers and gyroscopes from the smartphone of the Subject performing Activity.
 
 *  		e.g. tBodyAcc-mean()-X is the ave of all tBodyAcc-mean()-X collected in the test  
 *  		tBodyAcc-mean()-Y is the ave of all tBodyAcc-mean()-Y collected in the test
 *       tBodyAcc-mean()-Z is the ave of all tBodyAcc-mean()-Z collected in the test
 *       tBodyAcc-std()-X  is the ave of all tBodyAcc-std()-X  collected in the test
 
-The complete list of variables is available in 'features.txt' inside “UCI HAR Dataset” folder.
+
+Suffix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 	tBodyAcc-mean()-X           Numeric  
 	tBodyAcc-mean()-Y           Numeric  

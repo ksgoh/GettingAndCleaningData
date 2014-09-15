@@ -32,8 +32,10 @@ The run_analysis.R does the following:
       		4) Label the 3 training data sets above with descriptive variabe/column names.  
     2) Merge the training and the test sets to create one data set.  
     3) Use descriptive activity names to name the activities in the data set  
-    4) Extract only measurements on the mean and standard deviation for each measurement by extracting measurements that contain "mean()" or "std()" in their descriptions.  
-    5) Create a second, independent tidy data set with the average of each variable for each activity and each subject.  
+    4) Extract only measurements on the mean and standard deviation for each measurement by extracting   
+       measurements that contain "mean()" or "std()" in their descriptions.  
+    5) Create a second, independent tidy data set with the average of each variable for each activity 
+       and each subject.  
     6) Output the tidy data set as "tidy data.txt"  
 
 
